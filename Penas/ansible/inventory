@@ -1,3 +1,13 @@
-192.168.56.109 apache_package=apache2 php_package=libapache2-mod-php
-192.168.56.102 apache_package=apache2 php_package=libapache2-mod-php
-192.168.56.107 apache_package=httpd php_package=php
+[web_servers]
+#Server - 1
+192.168.56.109
+#CentOS
+192.168.56.107
+
+[db_servers]
+#Server - 2
+192.168.56.102
+
+[file_servers]
+#Server - 3
+192.168.56.113
